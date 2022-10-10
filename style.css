@@ -1,0 +1,45 @@
+:root{
+  --white:hsl(0, 0%, 98%);
+  --gray: hsl(0, 0%, 41%);
+  --black:hsl(0, 0%, 8%);
+}
+*{
+  font-family:Epilogue;
+  text-decoration: none;
+  text-align: center;
+}
+.nav-item{
+  color:grey;
+}
+
+p{
+  font-size: 18px;
+  line-height: 2;
+}
+#learn {
+  width:9.5rem;
+  height:3.0rem;
+  background-color:var(--black);
+  font-size: 1rem;
+  border-radius: 15px;
+}
+#learn:hover{
+border:2px solid var(--black);
+background-color: var(--white);
+color:var(--black);
+transition: ease-in 0.6s;
+}
+#navbarDropdown, .nav-item{
+  font-size:17px;
+}
+@media screen and (max-width:240px) {
+  h1, p{
+    line-height: normal;
+    text-align: center !important;
+  }
+}
+@media screen and (min-width:1000px){
+  h1 {
+    font-size: 4rem !important;
+  }
+}
